@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #140a0a;        /* the colour of the track zone */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(30, 41, 59, 0.4);    /* the slider's colour */
+    border-radius: 20px;       /* the slider's roundness */
+    border: none;
+  }
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("https://i.makeagif.com/media/2-21-2016/LLQqOO.gif");
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.more{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.recuadro{
+    background-color: rgb(0, 0, 0);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+}
